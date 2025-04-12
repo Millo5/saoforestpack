@@ -1,0 +1,13 @@
+{
+    "parent":"item/generated",
+    "textures": {
+		"layer0": "item/plenty_pottery_sherd"
+	},
+    "overrides":[
+        {"predicate":{"custom_model_data":2},"model":"custom/gui/button/deck"},
+        {"predicate":{"custom_model_data":3},"model":"custom/gui/button/new_game"},
+        {"predicate":{"custom_model_data":4},"model":"custom/gui/button/back"},
+        {"predicate":{"custom_model_data":5},"model":"custom/gui/button/unlocked"},
+        {"predicate":{"custom_model_data":6},"model":"custom/gui/button/locked"}
+    ]
+}

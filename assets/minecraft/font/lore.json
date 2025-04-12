@@ -1,0 +1,17 @@
+{
+    "providers": [
+        {
+            "type": "reference",
+            "id": "minecraft:include/space"
+        },
+        
+        {"type":"bitmap", "file":"custom/font/box.png", "ascent":8, "height":16, "chars":["a"]},
+		{"type":"bitmap", "file":"custom/font/box2.png", "ascent":8, "height":32, "chars":["b"]},
+		
+		{"type":"bitmap", "file":"custom/font/modifier.png", "ascent":8, "height":16, "chars":["c"]},
+		{"type":"bitmap", "file":"custom/font/human.png", "ascent":8, "height":16, "chars":["d"]},
+		{"type":"bitmap", "file":"custom/font/beast.png", "ascent":8, "height":16, "chars":["e"]},
+		{"type":"bitmap", "file":"custom/font/food.png", "ascent":8, "height":16, "chars":["f"]}
+        
+    ]
+}

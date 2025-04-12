@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "custom/gui/buttons/unlocked",
+    "layer1": "custom/gui/buttons/unlocked"
+  }
+}

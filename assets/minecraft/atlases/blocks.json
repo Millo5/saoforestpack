@@ -1,0 +1,6 @@
+{"sources":[{"type":"directory","source":"custom","prefix":"custom/"},{"type":"directory","source":"entity","prefix":"entity/"},{"type":"directory","source":"painting","prefix":"painting/"},
+{
+    "type": "directory",
+    "source": "skybox",
+    "prefix": "skybox/"
+}]}

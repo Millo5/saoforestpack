@@ -1,0 +1,19 @@
+{
+    "providers": [
+        {
+            "type": "reference",
+            "id": "minecraft:include/space"
+        },
+        {
+            "type": "space",
+            "advances": {
+                "a": -1,
+                "b": -8,
+                "c": -137,
+                "d": -185,
+                "e": -15,
+                "f": -21
+            }
+        }
+    ]
+}
