@@ -100,7 +100,7 @@ void main() {
 			distortion
 		);
 		
-		fragColor = mix(fragColor, overlay, 0.14);
+		// fragColor = mix(fragColor, overlay, 0.02);
 
         return;
     }
