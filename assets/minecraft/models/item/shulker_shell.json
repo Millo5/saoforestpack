@@ -1,0 +1,11 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "item/shulker_shell"
+  },
+  "overrides": [
+    { "predicate": { "custom_model_data": 1 }, "model": "custom/flashlight" },
+    { "predicate": { "custom_model_data": 2 }, "model": "custom/flashlight_lit" },
+    { "predicate": { "custom_model_data": 3 }, "model": "custom/ammobox" }
+  ]
+}
