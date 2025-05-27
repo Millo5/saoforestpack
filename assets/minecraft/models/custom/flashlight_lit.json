@@ -1,9 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "item/flashlight",
-		"1": "item/flashlight_light",
-		"particle": "flashlight"
+		"0": "item/flashlight_lit",
+		"1": "item/flashlight_light"
 	},
 	"elements": [
 		{
@@ -33,9 +32,9 @@
 			}
 		},
 		{
-			"from": [8, 2.3, 7],
-			"to": [9, 2.3, 8],
-			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0.3, 6]},
+			"from": [8, 2.1, 7],
+			"to": [9, 2.1, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0.1, 6]},
 			"faces": {
 				"north": {"uv": [0, 0, 1, 0], "texture": "#0"},
 				"east": {"uv": [0, 0, 1, 0], "texture": "#0"},

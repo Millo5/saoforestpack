@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "custom/cards/menace",
-    "layer1": "custom/cards/menace"
-  }
-}

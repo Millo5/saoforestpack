@@ -6,6 +6,7 @@
   "overrides": [
     { "predicate": { "custom_model_data": 1 }, "model": "custom/flashlight" },
     { "predicate": { "custom_model_data": 2 }, "model": "custom/flashlight_lit" },
-    { "predicate": { "custom_model_data": 3 }, "model": "custom/ammobox" }
+    { "predicate": { "custom_model_data": 3 }, "model": "custom/polaroid" },
+    { "predicate": { "custom_model_data": 4 }, "model": "custom/ammobox" }
   ]
 }
