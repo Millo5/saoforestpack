@@ -10,6 +10,7 @@
     { "predicate": { "custom_model_data": 4 }, "model": "custom/asmongold" },
     { "predicate": { "custom_model_data": 5 }, "model": "custom/keyboard" },
     { "predicate": { "custom_model_data": 6 }, "model": "custom/cans" },
-    { "predicate": { "custom_model_data": 7 }, "model": "custom/ammobox" }
+    { "predicate": { "custom_model_data": 7 }, "model": "custom/ammobox" },
+    { "predicate": { "custom_model_data": 8 }, "model": "custom/singlecan" }
   ]
 }
