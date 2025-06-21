@@ -1,0 +1,7 @@
+{
+  "gate.open": {
+    "sounds": [
+        "custom/gate_open"   
+    ]
+  }
+}
