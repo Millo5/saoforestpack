@@ -1,0 +1,44 @@
+{
+  "variants": {
+    "facing=east,face=wall,powered=true": [
+      { "model": "custom/brownwallshroom1", "y": 90 },
+      { "model": "custom/brownwallshroom2", "y": 90 },
+      { "model": "custom/brownwallshroom3", "y": 90 },
+      { "model": "custom/brownwallshroom4", "y": 90 }],
+    "facing=east,face=wall,powered=false": [
+      { "model": "custom/brownblockshroom1", "y": 90 },
+      { "model": "custom/brownblockshroom2", "y": 90 },
+      { "model": "custom/brownblockshroom3", "y": 90 },
+      { "model": "custom/brownblockshroom4", "y": 90 }],
+    "facing=west,face=wall,powered=true": [
+      { "model": "custom/brownwallshroom1", "y": 270 },
+      { "model": "custom/brownwallshroom2", "y": 270 },
+      { "model": "custom/brownwallshroom3", "y": 270 },
+      { "model": "custom/brownwallshroom4", "y": 270 }],
+          "facing=west,face=wall,powered=false": [
+      { "model": "custom/brownblockshroom1", "y": 270 },
+      { "model": "custom/brownblockshroom2", "y": 270 },
+      { "model": "custom/brownblockshroom3", "y": 270 },
+      { "model": "custom/brownblockshroom4", "y": 270 }],
+    "facing=south,face=wall,powered=true": [
+      { "model": "custom/brownwallshroom1", "y": 180 },
+      { "model": "custom/brownwallshroom2", "y": 180 },
+      { "model": "custom/brownwallshroom3", "y": 180 },
+      { "model": "custom/brownwallshroom4", "y": 180 }],
+          "facing=south,face=wall,powered=false": [
+      { "model": "custom/brownblockshroom1", "y": 180 },
+      { "model": "custom/brownblockshroom2", "y": 180 },
+      { "model": "custom/brownblockshroom3", "y": 180 },
+      { "model": "custom/brownblockshroom4", "y": 180 }],
+    "facing=north,face=wall,powered=true": [
+      { "model": "custom/brownwallshroom1", "y": 0 },
+      { "model": "custom/brownwallshroom2", "y": 0 },
+      { "model": "custom/brownwallshroom3", "y": 0 },
+      { "model": "custom/brownwallshroom4", "y": 0 }],
+          "facing=north,face=wall,powered=false": [
+      { "model": "custom/brownblockshroom1", "y": 0 },
+      { "model": "custom/brownblockshroom2", "y": 0 },
+      { "model": "custom/brownblockshroom3", "y": 0 },
+      { "model": "custom/brownblockshroom4", "y": 0 }]
+  }
+}
