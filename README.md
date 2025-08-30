@@ -1,1 +1,1 @@
-© Millo, Schloof, Snappy², RedVortx, Zaika. meomeowmeow meow
+© Millo, Schloof, meow, moeow, mrrpr, mrrrpreow mraaoww :3
