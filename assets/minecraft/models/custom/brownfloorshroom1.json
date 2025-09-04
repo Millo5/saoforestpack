@@ -1,0 +1,76 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "custom/models/floormush",
+		"particle": "custom/models/floormush"
+	},
+	"elements": [
+		{
+			"from": [9, 2, 6],
+			"to": [14, 4, 11],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [11.5, 3, 8.5]},
+			"faces": {
+				"north": {"uv": [5, 8, 10, 10], "texture": "#0"},
+				"east": {"uv": [9, 0, 14, 2], "texture": "#0"},
+				"south": {"uv": [9, 2, 14, 4], "texture": "#0"},
+				"west": {"uv": [9, 4, 14, 6], "texture": "#0"},
+				"up": {"uv": [5, 5, 0, 0], "texture": "#0"},
+				"down": {"uv": [5, 5, 0, 10], "texture": "#0"}
+			}
+		},
+		{
+			"from": [11, 0, 8],
+			"to": [12, 2, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [11.5, 1, 8.5]},
+			"faces": {
+				"north": {"uv": [10, 8, 11, 10], "texture": "#0"},
+				"east": {"uv": [11, 8, 12, 10], "texture": "#0"},
+				"south": {"uv": [0, 12, 1, 14], "texture": "#0"},
+				"west": {"uv": [1, 12, 2, 14], "texture": "#0"},
+				"up": {"uv": [7, 13, 6, 12], "texture": "#0"},
+				"down": {"uv": [8, 12, 7, 13], "texture": "#0"}
+			}
+		},
+		{
+			"from": [4, 0, 4],
+			"to": [5, 2, 5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4.5, 1, 4.5]},
+			"faces": {
+				"north": {"uv": [2, 12, 3, 14], "texture": "#0"},
+				"east": {"uv": [3, 12, 4, 14], "texture": "#0"},
+				"south": {"uv": [4, 12, 5, 14], "texture": "#0"},
+				"west": {"uv": [5, 12, 6, 14], "texture": "#0"},
+				"up": {"uv": [9, 13, 8, 12], "texture": "#0"},
+				"down": {"uv": [13, 8, 12, 9], "texture": "#0"}
+			}
+		},
+		{
+			"from": [2.5, 2, 2.5],
+			"to": [6.5, 4, 6.5],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [4.5, 3, 4.5]},
+			"faces": {
+				"north": {"uv": [9, 6, 13, 8], "texture": "#0"},
+				"east": {"uv": [0, 10, 4, 12], "texture": "#0"},
+				"south": {"uv": [4, 10, 8, 12], "texture": "#0"},
+				"west": {"uv": [8, 10, 12, 12], "texture": "#0"},
+				"up": {"uv": [9, 4, 5, 0], "texture": "#0"},
+				"down": {"uv": [9, 4, 5, 8], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "short.large",
+			"origin": [11.5, 1, 8.5],
+			"color": 0,
+			"children": [0, 1]
+		},
+		{
+			"name": "short.medium",
+			"origin": [4.5, 3, 4.5],
+			"color": 0,
+			"children": [2, 3]
+		}
+	]
+}

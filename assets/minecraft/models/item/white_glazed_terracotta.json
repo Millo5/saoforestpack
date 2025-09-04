@@ -4,9 +4,6 @@
         "all": "skybox:tools_skybox"
     },
     "overrides": [
-        { "predicate": { "custom_model_data": 1 }, "model": "skybox:skybox/debug" },
-        { "predicate": { "custom_model_data": 2 }, "model": "skybox:skybox/day" },
-        { "predicate": { "custom_model_data": 3 }, "model": "skybox:skybox/forest" },
-        { "predicate": { "custom_model_data": 4 }, "model": "skybox:skybox/space" }
+        { "predicate": { "custom_model_data": 1 }, "model": "skybox:skybox/day" }
     ]
 }

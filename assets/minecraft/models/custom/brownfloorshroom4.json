@@ -1,0 +1,45 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"parent": "brownfloorshroom2",
+	"textures": {
+		"0": "custom/models/floormush",
+		"particle": "custom/models/floormush"
+	},
+	"elements": [
+		{
+			"from": [2, 2, 8],
+			"to": [7, 4, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4.5, 3, 10.5]},
+			"faces": {
+				"north": {"uv": [5, 8, 10, 10], "texture": "#0"},
+				"east": {"uv": [9, 0, 14, 2], "texture": "#0"},
+				"south": {"uv": [9, 2, 14, 4], "texture": "#0"},
+				"west": {"uv": [9, 4, 14, 6], "texture": "#0"},
+				"up": {"uv": [5, 5, 0, 0], "texture": "#0"},
+				"down": {"uv": [5, 5, 0, 10], "texture": "#0"}
+			}
+		},
+		{
+			"from": [4, 0, 10],
+			"to": [5, 2, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4.5, 1, 10.5]},
+			"faces": {
+				"north": {"uv": [10, 8, 11, 10], "texture": "#0"},
+				"east": {"uv": [11, 8, 12, 10], "texture": "#0"},
+				"south": {"uv": [0, 12, 1, 14], "texture": "#0"},
+				"west": {"uv": [1, 12, 2, 14], "texture": "#0"},
+				"up": {"uv": [7, 13, 6, 12], "texture": "#0"},
+				"down": {"uv": [8, 12, 7, 13], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "short.large",
+			"origin": [11.5, 1, 8.5],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}

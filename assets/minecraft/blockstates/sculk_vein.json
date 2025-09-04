@@ -1,0 +1,74 @@
+{
+  "variants": {
+    "down=false,east=false,north=false,south=true,up=false,waterlogged=false,west=false": [
+      { "model": "custom/camera", "y": 0 }],
+    "down=false,east=false,north=false,south=true,up=false,waterlogged=false,west=true": [
+      { "model": "custom/45camera", "y": 0 }],
+    "down=false,east=false,north=false,south=false,up=false,waterlogged=false,west=true": [
+      { "model": "custom/camera", "y": 90 }],
+    "down=false,east=false,north=true,south=false,up=false,waterlogged=false,west=true": [
+      { "model": "custom/45camera", "y": 90 }],
+    "down=false,east=false,north=true,south=false,up=false,waterlogged=false,west=false": [
+      { "model": "custom/camera", "y": 180 }],
+    "down=false,east=true,north=true,south=false,up=false,waterlogged=false,west=false": [
+      { "model": "custom/45camera", "y": 180 }],
+    "down=false,east=true,north=false,south=false,up=false,waterlogged=false,west=false": [
+      { "model": "custom/camera", "y": 270 }],
+    "down=false,east=true,north=false,south=true,up=false,waterlogged=false,west=false": [
+      { "model": "custom/45camera", "y": 270 }],
+
+    "down=false,east=false,north=false,south=true,up=true,waterlogged=false,west=false": [
+      { "model": "custom/ciecamera", "y": 0 }],
+    "down=false,east=false,north=false,south=true,up=true,waterlogged=false,west=true": [
+      { "model": "custom/45ciecamera", "y": 0 }],
+    "down=false,east=false,north=false,south=false,up=true,waterlogged=false,west=true": [
+      { "model": "custom/ciecamera", "y": 90 }],
+    "down=false,east=false,north=true,south=false,up=true,waterlogged=false,west=true": [
+      { "model": "custom/45ciecamera", "y": 90 }],
+    "down=false,east=false,north=true,south=false,up=true,waterlogged=false,west=false": [
+      { "model": "custom/ciecamera", "y": 180 }],
+    "down=false,east=true,north=true,south=false,up=true,waterlogged=false,west=false": [
+      { "model": "custom/45ciecamera", "y": 180 }],
+    "down=false,east=true,north=false,south=false,up=true,waterlogged=false,west=false": [
+      { "model": "custom/ciecamera", "y": 270 }],
+    "down=false,east=true,north=false,south=true,up=true,waterlogged=false,west=false": [
+      { "model": "custom/45ciecamera", "y": 270 }],
+
+
+
+    "down=true,east=false,north=false,south=true,up=false,waterlogged=false,west=false": [
+      { "model": "custom/blinkcamera", "y": 0 }],
+    "down=true,east=false,north=false,south=true,up=false,waterlogged=false,west=true": [
+      { "model": "custom/blink45camera", "y": 0 }],
+    "down=true,east=false,north=false,south=false,up=false,waterlogged=false,west=true": [
+      { "model": "custom/blinkcamera", "y": 90 }],
+    "down=true,east=false,north=true,south=false,up=false,waterlogged=false,west=true": [
+      { "model": "custom/blink45camera", "y": 90 }],
+    "down=true,east=false,north=true,south=false,up=false,waterlogged=false,west=false": [
+      { "model": "custom/blinkcamera", "y": 180 }],
+    "down=true,east=true,north=true,south=false,up=false,waterlogged=false,west=false": [
+      { "model": "custom/blink45camera", "y": 180 }],
+    "down=true,east=true,north=false,south=false,up=false,waterlogged=false,west=false": [
+      { "model": "custom/blinkcamera", "y": 270 }],
+    "down=true,east=true,north=false,south=true,up=false,waterlogged=false,west=false": [
+      { "model": "custom/blink45camera", "y": 270 }],
+
+    "down=true,east=false,north=false,south=true,up=true,waterlogged=false,west=false": [
+      { "model": "custom/blinkciecamera", "y": 0 }],
+    "down=true,east=false,north=false,south=true,up=true,waterlogged=false,west=true": [
+      { "model": "custom/blink45ciecamera", "y": 0 }],
+    "down=true,east=false,north=false,south=false,up=true,waterlogged=false,west=true": [
+      { "model": "custom/blinkciecamera", "y": 90 }],
+    "down=true,east=false,north=true,south=false,up=true,waterlogged=false,west=true": [
+      { "model": "custom/blink45ciecamera", "y": 90 }],
+    "down=true,east=false,north=true,south=false,up=true,waterlogged=false,west=false": [
+      { "model": "custom/blinkciecamera", "y": 180 }],
+    "down=true,east=true,north=true,south=false,up=true,waterlogged=false,west=false": [
+      { "model": "custom/blink45ciecamera", "y": 180 }],
+    "down=true,east=true,north=false,south=false,up=true,waterlogged=false,west=false": [
+      { "model": "custom/blinkciecamera", "y": 270 }],
+    "down=true,east=true,north=false,south=true,up=true,waterlogged=false,west=false": [
+      { "model": "custom/blink45ciecamera", "y": 270 }]
+  }
+}
+

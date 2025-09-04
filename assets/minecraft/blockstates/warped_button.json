@@ -39,6 +39,15 @@
       { "model": "custom/brownblockshroom1", "y": 0 },
       { "model": "custom/brownblockshroom2", "y": 0 },
       { "model": "custom/brownblockshroom3", "y": 0 },
-      { "model": "custom/brownblockshroom4", "y": 0 }]
+      { "model": "custom/brownblockshroom4", "y": 0 }],
+
+          "face=floor,powered=true": [
+      { "model": "custom/brownfloorshroom1", "y": 0 },
+      { "model": "custom/brownfloorshroom2", "y": 0 },
+      { "model": "custom/brownfloorshroom3", "y": 0 },
+      { "model": "custom/brownfloorshroom4", "y": 0 },
+      { "model": "custom/brownfloorshroom5", "y": 0 },
+      { "model": "custom/brownfloorshroom6", "y": 0 }]
+
   }
 }
