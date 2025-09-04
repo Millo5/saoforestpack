@@ -39,10 +39,17 @@ in vec2 uvRatio;
 in vec2 oneTexel;
 in float isSkybox; //1.0 if skybox
 in vec3 blockPos;
+in float isAntiFFive;
 
 float m(float x) {
    return x * 0.5 + 0.5;
 }
+
+bool compColors(vec3 a, vec3 b) {
+    float threshold = 0.1;
+    return (abs(a.r - b.r) < threshold) && (abs(a.g - b.g) < threshold) && (abs(a.b - b.b) < threshold);
+}
+
 
 // https://github.com/BalintCsala/minecraft-vanilla-skybox/blob/main/assets/minecraft/shaders/program/skybox.fsh
 vec3 sampleSkybox(sampler2D skyboxSampler, vec3 direction) {
@@ -105,11 +112,23 @@ void main() {
         return;
     }
 
+	if (isAntiFFive > 0.5) {
+		vec4 color = texture(Sampler0, texCoord0);
+		fragColor = color; //vec4(0.,0.,0.,0.);
+		return;
+	}
+
 	// Vanilla
 	vec4 color = texture(Sampler0, texCoord0);
     if (color.a < 0.1) {
         discard;
     }
+	// fragColor = vertexColor;
+    // if (color.r * 255. > 95.) {
+	// if (compColors(color.rgb * 255.0, vec3(96., 96., 31.))) {
+	// 	color = vec4(1.0, 0.0, 0.0, 1.0);
+	// }
+	// fragColor = color;
     color *= vertexColor * ColorModulator;
     color.rgb = mix(overlayColor.rgb, color.rgb, overlayColor.a);
     color *= lightMapColor;

@@ -48,6 +48,7 @@ out vec2 uvRatio;
 out vec2 oneTexel;
 out float isSkybox; //1.0 if skybox
 out vec3 blockPos;
+out float isAntiFFive;
 
 vec2[] corners = vec2[](
     vec2(0.0, 0.0),
@@ -55,6 +56,13 @@ vec2[] corners = vec2[](
     vec2(1.0, 1.0),
     vec2(1.0, 0.0)
 );
+
+vec3 fullScreenColor = vec3(96, 96, 31);
+
+bool compColors(vec3 a, vec3 b) {
+    float threshold = 0.01;
+    return (abs(a.r - b.r) < threshold) && (abs(a.g - b.g) < threshold) && (abs(a.b - b.b) < threshold);
+}
 
 void main() {
     gl_Position = ProjMat * ModelViewMat * vec4(Position, 1.0);
@@ -97,6 +105,12 @@ void main() {
     |    width = 384.0;
     | }
     */
+    // vertexColor = vec4(1.0);
+    // return;
+
+
+
+
     vec2 samplerSize = textureSize(Sampler0, 0); // atlas size in pixels
     vec2 corner_shift = (corners[gl_VertexID % 4]-vec2(0.5,0.5))*-2.0;
     vec2 fixed_UV0 = UV0+corner_shift/samplerSize;
@@ -108,6 +122,21 @@ void main() {
         skybox = true;
         width = 3072.0;
     }
+
+    isAntiFFive = 0.0;
+    vec4 sample = texture(Sampler0, fixed_UV0);
+	if (compColors(sample.rgb * 255.0, vec3(96., 96., 31.))) {
+        if (gl_Position.z > 1.95) {
+            gl_Position.zw = vec2(0, 1);
+            switch (gl_VertexID % 4) {
+                case 0: gl_Position.xy = vec2(1.0, -1.0); break; // bottom left
+                case 1: gl_Position.xy = vec2(1.0,  1.0); break; // top left
+                case 2: gl_Position.xy = vec2(-1.0,  1.0); break; // top right
+                case 3: gl_Position.xy = vec2(-1.0, -1.0); break; // bottom right
+            }
+            isAntiFFive = 1.;
+        }
+	}
 
     isSkybox = 0.0;
     if (skybox) {
