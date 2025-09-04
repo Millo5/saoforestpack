@@ -114,6 +114,9 @@ void main() {
 
 	if (isAntiFFive > 0.5) {
 		vec4 color = texture(Sampler0, texCoord0);
+		if (compColors(color.rgb * 255.0, vec3(96., 96., 31.))) {
+			color = vec4(0.0, 0.0, 0.0, 1.0);
+		}
 		fragColor = color; //vec4(0.,0.,0.,0.);
 		return;
 	}
@@ -125,9 +128,6 @@ void main() {
     }
 	// fragColor = vertexColor;
     // if (color.r * 255. > 95.) {
-	// if (compColors(color.rgb * 255.0, vec3(96., 96., 31.))) {
-	// 	color = vec4(1.0, 0.0, 0.0, 1.0);
-	// }
 	// fragColor = color;
     color *= vertexColor * ColorModulator;
     color.rgb = mix(overlayColor.rgb, color.rgb, overlayColor.a);
